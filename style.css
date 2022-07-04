@@ -1,0 +1,78 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+.header{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.container{
+  width: 50%;
+  padding: 7%;
+}
+
+.container h1{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+
+.container span{
+    color: darkred;
+}
+.container p{
+    font-weight: 100;
+
+}
+.container img{
+    width: 100%;
+}
+.container button{
+    border-radius: 5px;
+    padding: 10px 30px;
+    border:none;
+    background-image: linear-gradient(orange,tomato);
+    color:white;
+    font-weight: bold;
+    text-transform:uppercase;
+}
+
+.mid{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.last{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.container1{
+    width: 50%;
+    padding: 3%;
+    box-shadow: 10px 10px 40px gray;
+    margin: 5%;
+    border-radius: 5px;
+ 
+}
+.container1 h1{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+.container1 h3{
+    color: orange;
+    
+}
+#color1{
+    border-left: 7px  solid tomato;
+}
+#color2{
+    border-left: 7px  solid navy;
+}
+footer p{
+    color: black;
+    text-align: center;
+}
